@@ -18,5 +18,12 @@ For support and assistance please join [the official support discord](https://di
 7. Flourish
 
 ### Dependencies
-- everything in the release folder
+- everything in the release folder:
+  - dpp.dll
+  - libcrypto-1_1-x64.dll
+  - libsodium.dll
+  - libssl-1_1-x64.dll
+  - net.exe
+  - opus.dll
+  - zlib1.dll
 - `vcruntime140.dll` which can be found in [here](https://aka.ms/vs/17/release/vc_redist.x64.exe)
