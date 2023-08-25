@@ -17,4 +17,5 @@ For support and assistance please join [the official support discord](https://di
 6. Flourish
 
 ### Dependencies
-- 
+- everything in the release folder
+- `vcruntime140.dll` which can be found in [here](https://aka.ms/vs/17/release/vc_redist.x64.exe)
