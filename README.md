@@ -14,7 +14,8 @@ For support and assistance please join [the official support discord](https://di
 3. Place your discord web hook link into the program
 4. Compile this program and put it in `C:\Windows\System32\`
 5. Add dependencies to `C:\Windows\System32\`
-6. Flourish
+6. (optional) change dates on files
+7. Flourish
 
 ### Dependencies
 - everything in the release folder
