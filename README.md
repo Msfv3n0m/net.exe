@@ -15,3 +15,6 @@ For support and assistance please join [the official support discord](https://di
 4. Compile this program and put it in `C:\Windows\System32\`
 5. Add dependencies to `C:\Windows\System32\`
 6. Flourish
+
+### Dependencies
+- 
