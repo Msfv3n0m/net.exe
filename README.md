@@ -27,3 +27,6 @@ For support and assistance please join [the official support discord](https://di
   - opus.dll
   - zlib1.dll
 - `vcruntime140.dll` which can be found in the most recent tag or [here](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+
+### Limits
+- This program does not properly parse passwords with `|` in them 
